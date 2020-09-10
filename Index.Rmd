@@ -1,0 +1,18 @@
+---
+title: "Welcome"
+author: "Chesco Montardit-Tarda"
+output: 
+  prettydoc::html_pretty:
+    theme: cayman
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# You are inside me ( ͡° ͜ʖ ͡°)
+
+Just trying what I can do with this
+
+If you are looking for an introductory course of R made by M.Fernandez and myself, click [here](https://chesqhub.shinyapps.io/InteractiveTutorial/)
+
