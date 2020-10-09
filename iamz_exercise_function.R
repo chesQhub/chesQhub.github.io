@@ -9,6 +9,7 @@ iamz_exercise <- function() {
   moisture <- rnorm(n = 100,
                     mean = 0.4,
                     sd = 0.01)
+ 
   dry_weight <- weight * (1 - moisture)
   
   # Create a vector with 50 repetitions of Chesco, and 50 repetition of Miriam
@@ -21,9 +22,10 @@ iamz_exercise <- function() {
              round(rnorm(50, 6, 1), 2)
              )
   
+  # Vector depending of values in yield 
   rows <- ifelse(yield > 10, 2, 6)
   
-  # Replace all values equal to 6 with string "wrong"
+  # Replace all values equal to 10 with string "wrong"
   yield[yield == 10] <- "wrong"
   
   # New dataset with vectors as columns
