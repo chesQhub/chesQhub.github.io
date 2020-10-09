@@ -7,7 +7,7 @@ iamz_exercise <- function() {
                   mean = 10,
                   sd = 3)
   moisture <- rnorm(n = 100,
-                    mean = 0.4,
+                    mean = 0.2,
                     sd = 0.01)
   dry_weight <- weight * (1 - moisture)
   
