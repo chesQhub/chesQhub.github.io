@@ -22,9 +22,7 @@ iamz_exercise <- function() {
              )
   
   rows <- ifelse(yield > 10, 2, 6)
-  
-  # Replace all values equal to 6 with string "wrong"
-  yield[yield == 10] <- "wrong"
+
   
   # New dataset with vectors as columns
   datatest <- data.frame(height,
